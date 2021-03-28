@@ -4,7 +4,7 @@ pipeline {
 
     registry = "9885614249/docker-test"
 
-    registryCredential = 'docker-hub-2'
+    registryCredential = 'docker-creds'
 
     dockerImage = ''
 
