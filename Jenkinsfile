@@ -2,9 +2,9 @@ pipeline {
 
   environment {
 
-    registry = "sankethshinde/demoproject"
+    registry = "9885614249/docker-test"
 
-    registryCredential = 'docker-creds'
+    registryCredential = 'docker-hub-2'
 
     dockerImage = ''
 
@@ -18,7 +18,7 @@ pipeline {
 
       steps {
 
-        git 'https://github.com/shindesanket/Docker-Jenkins-Demo'
+        git 'https://github.com/Bala-murali444/Docker-Jenkins-Demo.git'
 
       }
 
